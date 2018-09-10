@@ -74,7 +74,7 @@ public static void main(String[] args)
 	else                                                              // Check if the score is non-integer or greater than 100
 	{
 	
-		System.out.println("Enter valued is not a interger so quitting.....!!!!!!");
+		System.out.println("Enter valued is not in range (1-100).....!!!!!!");
 		continue;
 	}
 	}
