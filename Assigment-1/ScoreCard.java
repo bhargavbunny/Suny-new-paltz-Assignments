@@ -75,7 +75,7 @@ public static void main(String[] args)
 	{
 	
 		System.out.println("Enter valued is not a interger so quitting.....!!!!!!");
-		break;
+		continue;
 	}
 	}
 	int TotalGrades = Agrade + Bgrade + Cgrade + Dgrade + Fail;
