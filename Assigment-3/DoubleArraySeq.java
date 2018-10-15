@@ -10,14 +10,7 @@ public class DoubleArraySeq implements Cloneable
 		{
 			manyItems = 0;
 			currentIndex = -1;
-			try
-			{
-				data = new double[10];
-			}
-			catch  (OutOfMemoryError outofMemory)
-			{
-				throw outofMemory;
-			}
+			data = new double[10];
 		}
 		
 		public DoubleArraySeq(int initialCapacity)
