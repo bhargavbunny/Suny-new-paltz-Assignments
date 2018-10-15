@@ -29,7 +29,7 @@ public class Statistician
 
    public Statistician( )
    {
-       
+      count = 0;  
    }        
 
 
