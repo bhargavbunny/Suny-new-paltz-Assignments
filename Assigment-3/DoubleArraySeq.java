@@ -205,24 +205,23 @@ public class DoubleArraySeq implements Cloneable
 			else 
 				currentIndex = -1;
 		}	
-
-
-		public void print()
+	public void print()
 		{
-			String output = "";
-	        output += "  capacity = " + (data.length);
-			output += "\n  length = " + manyItems + "\n";
+			double answer;
+	        System.out.println("length is = " + data.length);
+			System.out.println("capacity is = " + manyItems);
 	        try {
-	            output += "  current element = " + getCurrent();
+	        System.out.println(" Current Element = " + getCurrent());
 	        } catch(IllegalStateException e) {
-	            output += "  there is no current element";
+	           System.out.println("there is no current element");
 	        }
-			output += "\n  elements: ";
+			System.out.print("Elements: ");
 	        for(int i = 0; i < manyItems; i++) {
-	            output += data[i] + " ";
+	            answer = data[i];
+                System.out.print(answer + " ");
 	        }
-			output += "\n"; 
-	        System.out.println(output);
-		}
+			System.out.println("\n");
+		}	
+
 	}
 
